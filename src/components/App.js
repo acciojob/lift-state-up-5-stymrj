@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div style={{display:'flex', flexDirection:'column', height:'100vh', width:'100vw', fontSize:'20px'}}>
       { isLoggedIn ? (
-        <h1>You are loggedin!</h1>
+        <p>You are loggedin!</p>
       ):
       (<ChildComponent isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>)
     }
